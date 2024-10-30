@@ -9,7 +9,6 @@
 - [Game Overview](#-🌟-game-overview)
 - [How to Play](#-🎮-how-to-play)
 - [Tech Stack & Skills](#-🛠️-tech-stack--skills)
-- [Game Previews](#-🖼️-game-previews)
 - [Start Playing](#-🚀-start-playing)
 
 ---
@@ -44,15 +43,6 @@ This game was built using the following technologies:
 - **Unity** - Game engine for creating immersive 2D and 3D games.
 - **C#** - Primary language for game logic and mechanics.
 - **Blender** - Used for creating 3D models and textures for game assets.
-
----
-
-## 🖼️ Game Previews
-
-*(Images coming soon!)*
-- **Amy**: The main player character - *Stay tuned for artwork and animations!*
-- **Treasure Chest**: The ultimate goal of each level.
-- **Game Levels**: Screenshots of each level showing different challenges and environments.
 
 ---
 
