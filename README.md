@@ -2,16 +2,15 @@
 
 **Treasure Chest** is an exciting, multi-level computer game where players embark on a thrilling adventure to find a hidden treasure chest at each stage! This game is developed using **Unity** and **C#**, with 3D elements created in **Blender**.
 
----
 
 # 🗂️ Table of Contents
 
-- [Game Overview](#-🌟-game-overview)
-- [How to Play](#-🎮-how-to-play)
-- [Tech Stack & Skills](#-🛠️-tech-stack--skills)
-- [Start Playing](#-🚀-start-playing)
+1. [Game Overview](#-game-overview)
+2. [How to Play](#-how-to-play)
+3. [Tech Stack & Skills](#%EF%B8%8F-tech-stack--skills)
+4. [Game Previews](#%EF%B8%8F-game-previews)
+5. [Start Playing](#-start-playing)
 
----
 
 ## 🌟 Game Overview
 
@@ -24,7 +23,6 @@ Treasure Chest challenges players to navigate through three unique levels, each 
 
 Players receive instructions at the start of each level, including hints on avoiding obstacles and tips for locating the treasure chest. The further they advance, the more intense and rewarding the journey becomes!
 
----
 
 ## 🎮 How to Play
 
@@ -34,7 +32,6 @@ Players receive instructions at the start of each level, including hints on avoi
 4. **Advance to Next Level**: Once you find the chest, progress to the next, more challenging level.
 5. **Score Points**: Earn points and compete for the highest score!
 
----
 
 ## 🛠️ Tech Stack & Skills
 
@@ -44,7 +41,35 @@ This game was built using the following technologies:
 - **C#** - Primary language for game logic and mechanics.
 - **Blender** - Used for creating 3D models and textures for game assets.
 
----
+
+## 🖼️ Game Previews
+
+### Opening Screen
+![Opening Screen - Character](README/1.png)
+
+### Level 1
+![Level 1 - Image 1](README/2.png)
+![Level 1 - Image 2](README/3.png)
+
+### Level 2
+![Level 2 - Image 1](README/4.png)
+![Level 2 - Image 2](README/5.png)
+
+### Level 3
+![Level 3 - Image 1](README/6.png)
+![Level 3 - Image 2](README/7.png)
+
+### Game Over Screen
+When the player loses, the level restarts.
+![Game Over Screen](README/8.png)
+
+### Victory Screen
+When the player wins, they move on to the next level. If it's the final level, the game begins again.
+- **Victory after a certain level**:
+  ![Victory after a certain level](README/9.png)
+- **Victory after the final level**:
+  ![Victory after the final level](README/10.png)
+
 
 ## 🚀 Start Playing
 
