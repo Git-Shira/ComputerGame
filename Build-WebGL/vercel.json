@@ -5,32 +5,10 @@
             "use": "@vercel/static"
         }
     ],
-    "headers": [
+    "routes": [
         {
-            "source": "/Build-WebGL/Build/(.*).gz",
-            "headers": [
-                {
-                    "key": "Content-Encoding",
-                    "value": "gzip"
-                },
-                {
-                    "key": "Content-Type",
-                    "value": "application/javascript"
-                }
-            ]
-        },
-        {
-            "source": "/Build-WebGL/Build/(.*).br",
-            "headers": [
-                {
-                    "key": "Content-Encoding",
-                    "value": "br"
-                },
-                {
-                    "key": "Content-Type",
-                    "value": "application/javascript"
-                }
-            ]
+            "src": "/(.*)",
+            "dest": "/Build-WebGL/index.html"
         }
     ]
 }
