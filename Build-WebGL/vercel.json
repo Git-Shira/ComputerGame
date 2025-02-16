@@ -1,17 +1,34 @@
 {
     "builds": [
         {
-            "src": "Build WebGL/index.html",
+            "src": "Build-WebGL/index.html",
             "use": "@vercel/static"
         }
     ],
     "headers": [
         {
-            "source": "/Build WebGL/(.*)",
+            "source": "/Build-WebGL/Build/(.*).gz",
             "headers": [
                 {
                     "key": "Content-Encoding",
                     "value": "gzip"
+                },
+                {
+                    "key": "Content-Type",
+                    "value": "application/javascript"
+                }
+            ]
+        },
+        {
+            "source": "/Build-WebGL/Build/(.*).br",
+            "headers": [
+                {
+                    "key": "Content-Encoding",
+                    "value": "br"
+                },
+                {
+                    "key": "Content-Type",
+                    "value": "application/javascript"
                 }
             ]
         }
