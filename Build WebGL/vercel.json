@@ -1,11 +1,17 @@
 {
+    "builds": [
+        {
+            "src": "Build WebGL/index.html",
+            "use": "@vercel/static"
+        }
+    ],
     "headers": [
         {
-            "source": "/Build/(.*).br",
+            "source": "/Build WebGL/(.*)",
             "headers": [
                 {
                     "key": "Content-Encoding",
-                    "value": "br"
+                    "value": "gzip"
                 }
             ]
         }
